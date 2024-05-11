@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+
+        <!-- for and id same rkhan padega to bind them together -->
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname" value="Ali">
+        <br>
+        <br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname" value="Sher Khan">
+
+        <hr>
+        <!-- RADIO -->
+
+        <!-- here name attribute is same for all radio buttons so only 1 will be able to click -->
+        <label for="web">WEB</label>
+        <input type="radio" id="web" name="radio">
+        <br>
+        <label for="dsa">DSA</label>
+        <input type="radio" name="radio" id="dsa">
+
+        <hr>
+        <label for="can">I can</label>
+        <input type="checkbox" name="can" id="can">
+        <br>
+        <label for="will">I will</label>
+        <input type="checkbox" name="will" id="will">
+        <br>
+        <label for="must">and I must do it</label>
+        <input type="checkbox" name="must" id="must">
+
+        <hr>
+
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname" value="Ali">
+        <br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname" value="Sher Khan">
+        <br>
+        <input type="submit" value="Submit Button">
+
+        <hr>
+
+        <!-- select is used to create a drop down -->
+        <label for="icecream">Choose your pasandeeda Ice cream</label>
+        <select name="icecream" id="icecream" size="3">
+            <option value="choco" >Chocolate flavour</option>
+            <option value="vanilla" selected>Vanilla flavour</option>
+            <option value="berry" >Blue berry flavour</option>
+            <option value="choco" >Chocolate flavour</option>
+            <option value="vanilla">Vanilla flavour</option>
+            <option value="berry" >Blue berry flavour</option>
+        </select>
+
+        <hr>
+        <label for="icecream">Choose your pasandeeda Ice cream</label>
+        <select name="icecream" id="icecream" multiple>
+            <option value="choco" >Chocolate flavour</option>
+            <option value="vanilla" selected>Vanilla flavour</option>
+            <option value="berry" >Blue berry flavour</option>
+            <option value="choco" >Chocolate flavour</option>
+            <option value="vanilla">Vanilla flavour</option>
+            <option value="berry" >Blue berry flavour</option>
+        </select>
+
+        <hr>
+        <textarea name="message" id="" rows="10" cols="30">This is a text area</textarea>
+        <hr>
+
+        <button onclick="alert('I can, I will and I must do it')">click me</button>
+
+        <hr>
+        <fieldset>
+            <legend>naam likho</legend>
+            <label for="fname">First name</label>
+            <input type="text" name="fname" id="fname"><br>
+            <label for="lname">Last name</label>
+            <input type="text" name="lname" id="lname">
+
+        </fieldset>
+    </form>
+</body>
+</html>
