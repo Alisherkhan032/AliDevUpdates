@@ -1,0 +1,24 @@
+/* unvisited link */
+a:link
+{
+    color: rgb(71, 209, 255);
+}
+
+/* visited link  */
+a:visited
+{
+    color: red;
+}
+
+/* mouse link ke upar rakho */
+a:hover
+{
+    font-size: x-large;
+    color: teal;
+}
+
+/* selected link : jab link par click hoga */
+a:active
+{
+    color: chartreuse;
+}

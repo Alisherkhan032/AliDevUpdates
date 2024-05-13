@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+#box1{
+    /* set height and width of content */
+    height: 200px; 
+    width: 400px ;
+    background-color: lightseagreen;
+    padding: 20px;
+    margin: 20px;
+    border: 20px solid rgb(141, 240, 108);
+}
+#box2{
+    /* display: inline; */
+    background-color: rgb(129, 32, 178);
+    padding: 20px;
+    margin: 20px;
+    border: 20px solid rgb(252, 110, 110);
+}
+#box3
+{
+    background-color: rgb(129, 32, 178);
+    padding: 20px;
+    margin: 20px;
+    border: 20px solid rgb(252, 110, 110);
+    height: 200px;
+    width: 200px;
+    box-sizing: border-box;
+}
+p{
+    margin: 20px;
+}

@@ -1,0 +1,23 @@
+/* universal selector */
+*{
+    font-family: cursive;
+}
+
+#div2{
+    text-align: center;
+    color: brown;
+}
+
+.div3{
+    text-align: right;
+    color: rgb(4, 7, 7);
+    background-color: slategrey;
+}
+.p1
+{
+    background-color: rgb(144, 105, 105);
+}
+.large
+{
+    font-size: xx-large;
+}
