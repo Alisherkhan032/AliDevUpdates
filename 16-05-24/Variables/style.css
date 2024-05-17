@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --color : rgb(110, 148, 215);
+    --secColor : rgb(109, 201, 231);
+}
+
+li{
+    list-style: none;
+    width: 100vw;
+    height: 50px;
+    justify-content: space-between;
+    margin: 20px;
+    border: 2px solid;
+    text-align: center;
+    font-family: cursive;
+}
+.nav{
+    background-color: var(--color, pink);
+    display: flex;
+    margin-bottom: 5px;
+
+}
+.container
+{
+    background-color: var(--secColor);
+}
